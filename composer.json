@@ -1,0 +1,27 @@
+{
+    "name": "phpbg/mpegts",
+    "description": "This is a pure PHP MPEG TS library, developed with performance in mind",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["mpeg", "mpegts", "dvb"],
+    "authors": [
+        {
+            "name": "Samuel CHEMLA",
+            "email": "chemla.samuel@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "myclabs/php-enum": "^1.5",
+        "evenement/evenement": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpBg\\MpegTs\\": "src"
+		}
+    }
+}
